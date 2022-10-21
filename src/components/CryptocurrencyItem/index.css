@@ -1,0 +1,55 @@
+/* Write your CSS code here */
+.list-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-coin-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 120px;
+  gap: 15px;
+}
+
+.icon {
+  width: 15px;
+}
+
+.icon-text {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+}
+
+.currency-text {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.list-currency-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  gap: 25px;
+  margin-right: 45px;
+}
+
+.list-text {
+  color: #ffffff;
+  font: 500;
+  font-size: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .icon-text {
+    font-size: 12px;
+  }
+  .list-text {
+    font-size: 12px;
+  }
+}

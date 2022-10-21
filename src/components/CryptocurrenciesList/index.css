@@ -1,0 +1,63 @@
+/* Write your CSS code here */
+.heading {
+  text-align: center;
+  color: #00e7ff;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.img {
+  width: 550px;
+}
+
+.card-container {
+  margin-top: 25px;
+  border: 1px solid #00e7ff;
+  border-radius: 10px;
+  width: 90%;
+  margin-bottom: 35px;
+}
+
+.coin-type {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 15px;
+}
+
+.text {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 45px;
+}
+
+.card {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currency-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 130px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .img {
+    width: 250px;
+  }
+
+  .coin-type {
+    font-size: 12px;
+  }
+  .text {
+    font-size: 12px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+}
